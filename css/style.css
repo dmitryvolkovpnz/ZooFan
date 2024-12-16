@@ -27,19 +27,85 @@
   border-bottom: 2px solid #3C2B99;
 }
 
-.banner__title {
+.banner {
   font-family: "Fira Sans", sans-serif;
+}
+.banner__title {
+  position: relative;
   color: #000;
   font-size: 70px;
   font-weight: 600;
   width: 70%;
   margin-left: 45%;
   margin-top: 60px;
+  z-index: 200;
 }
 .banner__img {
-  z-index: 1000;
+  z-index: 100;
   margin-top: -195px;
 }
 .banner__text {
+  font-weight: 600;
+  color: #3C2B99;
+  opacity: 0.7;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+}
+.banner__text span {
+  font-size: 110px;
+  line-height: 132px;
+}
+.banner__btn {
+  color: #000000;
+  font-size: 24px;
+  line-height: 29px;
+  border: 2px solid #3C2B99;
+  padding: 24px 82px;
+  border-radius: 62px;
+  background-color: #fff;
+  margin: 48px 0 0 0;
+}
+
+.catalog {
   font-family: "Fira Sans", sans-serif;
+}
+.catalog__title {
+  font-size: 35px;
+  font-weight: 300;
+  line-height: 42px;
+  color: #000;
+  text-align: start;
+  text-transform: uppercase;
+  margin: 70px 0;
+}
+.catalog .card {
+  width: 48%;
+  height: 206px;
+  border-radius: 30px;
+  background-color: #3C2B99;
+  margin: 0 auto;
+}
+.catalog .card__content {
+  display: block;
+  width: 50%;
+  margin-top: 5%;
+}
+.catalog .card__title {
+  color: #fff;
+  font-size: 30px;
+  line-height: 42px;
+  text-align: center;
+}
+.catalog .card__img img {
+  margin-top: -129px;
+  margin-left: -140px;
+  width: 180%;
+}
+.catalog .card-end {
+  width: 48%;
+  height: 206px;
+  border-radius: 30px;
+  background-color: #3C2B99;
+  margin: 0 auto;
 }/*# sourceMappingURL=style.css.map */

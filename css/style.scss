@@ -33,22 +33,87 @@ $mainColor: #3C2B99;
 }
 
 .banner{
+  font-family: "Fira Sans", sans-serif;
   &__title{
-    font-family: "Fira Sans", sans-serif;
+    position: relative;
     color: #000;
     font-size: 70px;
     font-weight: 600;
     width: 70%;
     margin-left: 45%;
     margin-top: 60px;
+    z-index: 200;
   }
   &__img{
-  
-    z-index: 1000;
+    z-index: 100;
     margin-top: -195px;
   }
   &__text{
-    font-family: "Fira Sans", sans-serif;
+    font-weight: 600;
+    color:$mainColor;
+    opacity: 0.7;
+    font-size: 30px;
+    line-height: 42px;
+    text-align: center;
+    span{
+      font-size: 110px;
+      line-height: 132px;
+    }
+  }
+  &__btn{
+    color:#000000;
+    font-size: $sizeL;
+    line-height: 29px;
+    border: 2px solid $mainColor;
+    padding: 24px 82px;
+    border-radius: 62px;
+    background-color: #fff;
+    margin: 48px 0 0 0;
+  }
+}
+
+.catalog{
+  font-family: "Fira Sans", sans-serif;
+  &__title{
+    font-size: 35px;
+    font-weight: 300;
+    line-height: 42px;
+    color: #000;
+    text-align: start;
+    text-transform: uppercase;
+    margin: 70px 0;
+  }
+  .card{
+    width: 48%;
+    height: 206px;
+    border-radius: 30px;
+    background-color: $mainColor;
+    margin: 0 auto;
+    &__content{
+      display: block;
+      width: 50%;
+      margin-top: 5%;
+    }
+    &__title{
+      color: #fff;
+      font-size: 30px;
+      line-height: 42px;
+      text-align: center;
+    }
+    &__img{ 
+      img{
+        margin-top: -129px;
+        margin-left: -140px;
+        width: 180%;
+      }
+    }
+  }
+  .card-end{
+    width: 48%;
+    height: 206px;
+    border-radius: 30px;
+    background-color: $mainColor;
+    margin: 0 auto;
   }
 }
 
