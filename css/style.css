@@ -84,7 +84,7 @@
   height: 206px;
   border-radius: 30px;
   background-color: #3C2B99;
-  margin: 0 auto;
+  margin: 40px auto;
 }
 .catalog .card__content {
   display: block;
@@ -96,9 +96,29 @@
   font-size: 30px;
   line-height: 42px;
   text-align: center;
+  margin-top: 20px;
 }
 .catalog .card__img img {
   margin-top: -129px;
+  margin-left: -140px;
+  width: 180%;
+}
+.catalog .card__img__dog img {
+  margin-top: -214px;
+  margin-left: -140px;
+  width: 180%;
+}
+.catalog .card__img__parrot img {
+  margin-top: -261px;
+  margin-left: -140px;
+  width: 180%;
+}
+.catalog .card__img__fish img {
+  margin-top: -10px;
+  width: 109%;
+}
+.catalog .card__img__mouse img {
+  margin-top: -95px;
   margin-left: -140px;
   width: 180%;
 }
@@ -108,4 +128,75 @@
   border-radius: 30px;
   background-color: #3C2B99;
   margin: 0 auto;
+}
+
+.brends {
+  margin: 100px 0;
+}
+.brends__title {
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 300;
+  text-transform: uppercase;
+}
+.brends__content {
+  margin-top: 50px;
+}
+.brends__cart {
+  margin: 0 auto;
+  width: 314px;
+  height: 105px;
+  border-radius: 10px;
+  border: 2px solid #000;
+}
+.brends__cart img {
+  width: 90%;
+}
+.brends__paw {
+  margin-top: 20px;
+}
+.brends__paw img {
+  transform: scale(-1, 1);
+  width: 30%;
+}
+
+.contact {
+  padding: 50px 0;
+}
+.contact__title {
+  font-size: 35px;
+  line-height: 42px;
+  font-weight: 300;
+  text-transform: uppercase;
+  margin-bottom: 50px;
+}
+.contact__items {
+  margin-top: 40px;
+  font-weight: 300;
+  font-size: 23px;
+  line-height: 43px;
+}
+.contact__items img {
+  margin-right: 10px;
+}
+.contact__map {
+  width: 100%;
+  height: 531px;
+}
+.contact__cat {
+  margin-top: -364px;
+}
+.contact__btn {
+  margin-top: -170px;
+}
+.contact__btn button {
+  padding: 20px 90px;
+  border-radius: 50px;
+  border: none;
+  background: #D2CEE4;
+  color: #4300FD;
+  font-size: 30px;
+  line-height: 32px;
+  text-align: center;
+  font-weight: 300;
 }/*# sourceMappingURL=style.css.map */
