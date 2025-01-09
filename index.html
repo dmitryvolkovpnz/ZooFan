@@ -14,24 +14,23 @@
     <title>ZooFan</title>
 </head>
 <body>
-<header class="header">
+<header class="header fixed-top">
     <div class="container">
         <div class="d-flex flex-column flex-md-row align-items-center pb-3 mt-4">
             <a href="/" class="d-flex align-items-center link-body-emphasis text-decoration-none">
                 <span class="header__logo">zoofan</span>
             </a>
             <nav class="d-inline-flex mt-2 mt-md-0 ms-md-auto header__nav">
-                <a class="me-4 py-2 text-decoration-none header__link" href="#">Главная</a>
-                <a class="me-4 py-2 text-decoration-none header__link" href="#">Каталог</a>
-                <a class="me-4 py-2 text-decoration-none header__link" href="#">Бренды</a>
-                <a class="me-4 py-2 text-decoration-none header__link" href="#">Поиск</a>
-                <a class="py-2 text-decoration-none header__link" href="#">Контакты</a>
+                <a class="me-4 py-2 text-decoration-none header__link" href="/#banner">Главная</a>
+                <a class="me-4 py-2 text-decoration-none header__link" href="/#catalog">Каталог</a>
+                <a class="me-4 py-2 text-decoration-none header__link" href="/#brends">Бренды</a>
+                <a class="py-2 text-decoration-none header__link" href="/#contact">Контакты</a>
             </nav>
         </div>
     </div>
 </header>
 <main>
-    <section class="banner">
+    <section class="banner" id="banner">
         <div class="container">
             <h2 class="banner__title">ТОВАРЫ ДЛЯ ВАШИХ ЛЮБИМЫХ ПИТОМЦЕВ</h2>
             <div class="banner__content">
@@ -49,11 +48,11 @@
         </div>
     </section>
 
-    <section class="catalog">
+    <section class="catalog" id="catalog">
         <div class="container">
             <div class="catalog__title">Категории</div>
             <div class="catalog__container row">
-                    <div class="card col-12 col-md-6 col-lg-6 col-xxl-6 row">
+                    <a href="/catalog.html" class="card col-12 col-md-6 col-lg-6 col-xxl-6 row">
                         <div class="card__content col-6">
                             <div class="card__paw d-flex justify-content-center">
                                 <img src="/img/paw.svg" alt="">
@@ -63,8 +62,8 @@
                         <div class="card__img col-6">
                             <img src="/img/cat.png" alt="">
                         </div>
-                    </div>
-                    <div class="card col-12 col-md-6 col-lg-6 col-xxl-6 row">
+                    </a>
+                    <a href="/catalog.html" class="card col-12 col-md-6 col-lg-6 col-xxl-6 row">
                         <div class="card__content col-6">
                             <div class="card__paw d-flex justify-content-center">
                                 <img src="/img/paw.svg" alt="">
@@ -74,8 +73,8 @@
                         <div class="card__img__dog col-6">
                             <img src="/img/dog.png" alt="">
                         </div>
-                    </div>
-                    <div class="card col-12 col-md-6 col-lg-6 col-xxl-6 mt-4 row">
+                    </a>
+                    <a href="/catalog.html" class="card col-12 col-md-6 col-lg-6 col-xxl-6 mt-4 row">
                         <div class="card__content col-6">
                             <div class="card__paw d-flex justify-content-center">
                                 <img src="/img/paw.svg" alt="">
@@ -85,8 +84,8 @@
                         <div class="card__img__parrot col-6">
                             <img src="/img/parrot.png" alt="">
                         </div>
-                    </div>
-                    <div class="card col-12 col-md-6 col-lg-6 col-xxl-6 mt-4 row">
+                    </a>
+                    <a href="/catalog.html" class="card col-12 col-md-6 col-lg-6 col-xxl-6 mt-4 row">
                         <div class="card__content col-6">
                             <div class="card__paw d-flex justify-content-center">
                                 <img src="/img/paw.svg" alt="">
@@ -96,8 +95,8 @@
                         <div class="card__img__fish col-6 fish">
                             <img src="/img/fish.png" alt="">
                         </div>
-                    </div>
-                    <div class="card-end mt-4 row">
+                    </a>
+                    <a href="/catalog.html" class="card-end mt-4 row">
                         <div class="card__content col-6">
                             <div class="card__paw d-flex justify-content-center">
                                 <img src="/img/paw.svg" alt="">
@@ -107,12 +106,12 @@
                         <div class="card__img__mouse col-6">
                             <img src="/img/mouse.png" alt="">
                         </div>
-                    </div>
+                    </a>
             </div>
         </div>
     </section>
 
-    <section class="brends">
+    <section class="brends" id="brends">
         <div class="container">
             <div class="brends__title">БРЕНДЫ</div>
             <div class="brends__content">
@@ -159,7 +158,7 @@
         </div>
     </section>
 
-    <section class="contact">
+    <section class="contact" id="contact">
         <div class="container">
             <div class="contact__title">Контакты</div>
             <div class="row contact__content">
@@ -188,9 +187,6 @@
         </div>
     </section>
 </main>
-<footer>
-    
-</footer>
 
 <script src="https://cdn.jsdelivr.net/npm/swiper@11/swiper-bundle.min.js"></script>
 

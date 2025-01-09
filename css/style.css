@@ -10,6 +10,7 @@
 
 .header {
   font-size: 24px;
+  background: #fff;
 }
 .header .container {
   border-bottom: 1px solid #C4C4C4;
@@ -37,6 +38,7 @@
 }
 .banner {
   font-family: "Fira Sans", sans-serif;
+  margin-top: 170px;
 }
 .banner__title {
   position: relative;
@@ -343,5 +345,66 @@
     padding: 10px 60px;
     font-size: 18px;
     line-height: 20px;
+  }
+}
+.calalogitems {
+  margin-top: 150px;
+}
+
+.items {
+  margin-top: 40px;
+  padding: 0 5px;
+}
+.items__header {
+  background: #D3D0E5;
+  height: 320px;
+  border-radius: 16px;
+}
+.items__title {
+  margin-top: 10px;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  text-align: start;
+}
+.items__btn {
+  width: 100%;
+  height: 37px;
+  display: flex;
+  align-items: center;
+  border: none;
+  background: #3C2B99;
+  margin-top: 10px;
+  border-radius: 50px;
+}
+.items__btn span {
+  display: block;
+  margin: 0 auto;
+  font-size: 24px;
+  font-weight: 300;
+  line-height: 26px;
+  color: #fff;
+}
+.items__price {
+  text-align: center;
+  margin-top: 10px;
+  font-size: 30px;
+  line-height: 36px;
+  font-weight: 500;
+}
+
+@media (max-width: 500px) {
+  .items__header {
+    height: 190px;
+  }
+  .items__title {
+    font-size: 18px;
+    line-height: 20px;
+  }
+  .items__btn span {
+    font-size: 18px;
+  }
+  .items__price {
+    font-size: 24px;
   }
 }/*# sourceMappingURL=style.css.map */
