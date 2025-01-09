@@ -36,6 +36,7 @@ $mainColor: #3C2B99;
 @media (max-width: 500px) {
   .header{
     font-size: 13px;
+    width: 85%;
     &__logo{
       font-size: 30px;
     }
@@ -300,8 +301,6 @@ $mainColor: #3C2B99;
       width: 90%;
     }
   }
-
-
   &__paw{
     margin-top: 20px;
 

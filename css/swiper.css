@@ -17,6 +17,10 @@
   }
   
   @media (max-width: 760px) {
+    .swiper {
+      height: 10%;
+    }
+
     .swiper-button-next {
       right: 20px;
       transform: rotate(90deg);

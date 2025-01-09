@@ -198,16 +198,24 @@ crossorigin="anonymous"></script>
 <script>
     var swiper = new Swiper('.swiper', {
       slidesPerView: 3,
-      direction: getDirection(),
       navigation: {
         nextEl: '.swiper-button-next',
         prevEl: '.swiper-button-prev',
       },
-      on: {
-        resize: function () {
-          swiper.changeDirection(getDirection());
+      breakpoints: {
+            360: {
+                slidesPerView: 1,
+                spaceBetween: 8
+            },
+            991: {
+                slidesPerView: 2,
+                spaceBetween: 30
+            },
+            1192: {
+                slidesPerView: 3,
+                spaceBetween: 20
+            }
         },
-      },
     });
 
     function getDirection() {
